@@ -45,15 +45,19 @@
 
 .gameBox {
   border: 1px solid black;
-  width: 500px;
-  height: 500px;
-  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+  /* display: inline-block; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buttons {
   border: 1px solid black;
-  width: 50px;
+  width: 100%;
   height: 50px;
+  display: flex;
+  justify-items: space-around;
 }
 
 .preset {
@@ -71,6 +75,19 @@
 
 .presets {
   border: 1px solid black;
-  display: inline-block;
+  display: flex;
+  margin: 0 auto auto 0;
   vertical-align: top;
+}
+
+.gameButton {
+  font-weight: bold;
+  margin: 1px;
+}
+
+.cells {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #242423;
+  background-color: #cfdbd5;
 }
